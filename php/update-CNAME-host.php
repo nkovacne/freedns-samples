@@ -1,7 +1,7 @@
 <?php
   /*
      The FreeDns.io project
-     This sample updates a CNAME record to IP address foo.google.com
+     This sample updates a CNAME record to host foo.google.com
   */
 
   $url = 'https://freedns.io/request';
