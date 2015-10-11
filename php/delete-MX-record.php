@@ -6,7 +6,7 @@
      The deleted record is 'mail.bar.foo'
   */
 
-  $url = 'http://freedns.io/request';
+  $url = 'https://freedns.io/request';
   $data = array(
     'username' => 'foo',
     'password' => '***',

@@ -4,7 +4,7 @@
      This sample updates a CNAME record to IP address foo.google.com
   */
 
-  $url = 'http://freedns.io/request';
+  $url = 'https://freedns.io/request';
   $data = array(
     'username' => 'foo',
     'password' => '***',

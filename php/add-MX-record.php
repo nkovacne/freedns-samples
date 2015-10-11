@@ -4,7 +4,7 @@
      This sample adds a new MX record. You may have up to 4 MX records.
   */
 
-  $url = 'http://freedns.io/request';
+  $url = 'https://freedns.io/request';
   $data = array(
     'username' => 'foo',
     'password' => '***',

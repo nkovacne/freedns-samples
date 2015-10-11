@@ -4,7 +4,7 @@
      This sample updates an A record to IP address 8.8.8.8
   */
 
-  $url = 'http://freedns.io/request';
+  $url = 'https://freedns.io/request';
   $data = array(
     'username' => 'foo',
     'password' => '***',

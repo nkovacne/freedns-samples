@@ -6,7 +6,7 @@
      The replaced value is 'mail.foo.bar' and will be overriden by 'mail.bar.foo'
   */
 
-  $url = 'http://freedns.io/request';
+  $url = 'https://freedns.io/request';
   $data = array(
     'username' => 'foo',
     'password' => '***',
