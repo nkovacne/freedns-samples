@@ -1,0 +1,11 @@
+# Copy this file as config.py and customize it accordingly
+# IMPORTANT: Set the permissions of config.py to 400 (chmod 400 config.py)
+
+USERNAME = 'your_freedns_username'
+PASSWORD = 'your_freedns_password'
+
+# Either A or AAAA
+RECORD_TYPE = 'A'
+
+# Don't append the '.freedns.io' suffix.
+HOST = 'your_freedns_host'

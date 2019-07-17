@@ -2,22 +2,19 @@
 
 """
      The FreeDns.io project
-     This sample deletes an existing MX record.
-     As you can have up to 4 MX records, it's necessary to specify which to delete.
-     The deleted record is 'mail.bar.foo'
+     This sample updates a record to the IP address of the user who made the request
 """
 
 from urllib.parse import urlencode
 from urllib import request
+from config import USERNAME, PASSWORD, HOST, RECORD_TYPE
 
 url = 'https://freedns.io/request'
 params = {
-  'username': 'foo',
-  'password': '***',
-  'host': 'myhost',
-  'record': 'MX',
-  'value': 'mail.bar.foo',
-  'delete': 1 
+  'username': USERNAME,
+  'password': PASSWORD,
+  'host': HOST,
+  'record': RECORD_TYPE
 }
 
 data = urlencode(params)
