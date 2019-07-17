@@ -5,6 +5,7 @@
      This sample updates a record to the IP address of the user who made the request
 """
 
+from datetime import datetime
 from urllib.parse import urlencode
 from urllib import request
 from config import USERNAME, PASSWORD, HOST, RECORD_TYPE
@@ -23,6 +24,6 @@ req = request.Request(url, data.encode('utf-8'))
 try:
   response = request.urlopen(req)
   content = response.read()
-  print(content)
+  print("[%s] %s" % (datetime.now(), content))
 except request.URLError as e:
-  print("Error: %d %s (%s)" % (e.code, e.reason, e.read()))
+  print("[%s] Error: %d %s (%s)" % (datetime.now(), e.code, e.reason, e.read()))
