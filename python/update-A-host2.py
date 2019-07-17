@@ -10,7 +10,6 @@ from urllib import request
 
 url = 'https://freedns.io/request'
 params = {
-params = {
   'username': 'foo',
   'password': '***',
   'host': 'myhost',
